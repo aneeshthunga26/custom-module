@@ -1,7 +1,7 @@
 import UIKit
 import Alamofire
 
-class CustomViewController: UIViewController {
+public class CustomViewController: UIViewController {
 
     // Create a label to display the response
     private let responseLabel: UILabel = {
@@ -11,7 +11,7 @@ class CustomViewController: UIViewController {
         return label
     }()
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
 
