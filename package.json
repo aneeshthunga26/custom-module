@@ -1,6 +1,6 @@
 {
   "name": "@aneeshthunga26/custom-module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "my test module",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
