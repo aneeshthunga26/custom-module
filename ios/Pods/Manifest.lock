@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.9.0)
+  - React-Core (0.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - React-Core
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - React-Core
+
+SPEC CHECKSUMS:
+  Alamofire: 02b772c9910e8eba1a079227c32fbd9e46c90a24
+  React-Core: c89e140a0ac23ed77a6094fe25d005e9c72e03b0
+
+PODFILE CHECKSUM: ad7cd165c52342be46003918d69b2c1292455cdd
+
+COCOAPODS: 1.15.0

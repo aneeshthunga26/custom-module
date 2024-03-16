@@ -6,7 +6,11 @@ const LINKING_ERROR =
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo Go\n';
 
-const CustomModule = NativeModules.CustomModule
+export interface CustomModule {
+  openCustomScreen: () => void;
+}
+
+export const CustomModule = NativeModules.CustomModule
   ? NativeModules.CustomModule
   : new Proxy(
       {},
@@ -16,7 +20,3 @@ const CustomModule = NativeModules.CustomModule
         },
       }
     );
-
-export function multiply(a: number, b: number): Promise<number> {
-  return CustomModule.multiply(a, b);
-}

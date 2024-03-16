@@ -1,5 +1,5 @@
 {
-  "name": "custom-module",
+  "name": "@aneeshthunga26/custom-module",
   "version": "0.1.0",
   "description": "my test module",
   "main": "lib/commonjs/index",
@@ -14,37 +14,30 @@
     "ios",
     "cpp",
     "*.podspec",
+    "!ios/Pods",
+    "!ios/Podfile",
+    "!ios/Podfile.lock",
     "!ios/build",
-    "!android/build",
-    "!android/gradle",
-    "!android/gradlew",
-    "!android/gradlew.bat",
-    "!android/local.properties",
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__",
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace custom-module-example",
-    "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
     "prepare": "bob build",
     "release": "release-it"
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "ios"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aneeshthunga26/custom-module.git.git"
   },
   "author": "aneeshthunga26 <150754185+aneeshthunga26@users.noreply.github.com> (http://localhost.com)",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/aneeshthunga26/custom-module.git/issues"
   },
