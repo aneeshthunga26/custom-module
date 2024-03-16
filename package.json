@@ -35,7 +35,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aneeshthunga26/custom-module.git.git"
+    "url": "git+https://github.com/aneeshthunga26/custom-module.git"
   },
   "author": "aneeshthunga26 <150754185+aneeshthunga26@users.noreply.github.com> (http://localhost.com)",
   "bugs": {
